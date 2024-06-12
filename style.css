@@ -191,17 +191,69 @@ body{
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: url(./assests/images/aboutbackground.jpg);
-  background-blend-mode: lighten;
-  /* opacity: 0.5; */
+  /* background-image: url(./assests/images/aboutbackground.jpg);
+  background-blend-mode: lighten; */
   
 
+}
+
+.about-text {
+  width: 500px;
+  height: 200px;
+  /* background-color: rgba(0, 0, 0, 0.596); */
+  color: rgba(0, 0, 0, 0.651);
+  margin-top: 40px;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.about-text p{
+  font-size: 10pt;
+}
+
+.about-text:hover{
+  box-shadow: 5px 5px 10px #000000d2;
+}
+
+#project{
+  width: 100vw;
+  height: 150px;
+  background-image: url(./assests/images/background.jpg);
+  background-blend-mode: luminosity;
+  object-fit: contain;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.project-edit{
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20pt ;
+
 
 }
 
-#about h2{
-  margin-top: 60px;
+.project-edit p{
+  font-size: 10pt;
+  text-transform: capitalize;
 }
+
+#projects{
+  width: 100vw;
+  height: 300px;
+  background-color: aquamarine;
+}
+.project-img img{
+  width: 200px;
+  height: 250px;
+  /* object-fit: contain; */
+
+}
+
 
 
   
