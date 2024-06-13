@@ -34,35 +34,9 @@ body{
     font-style: normal;
   }
   
-  .lato-thin-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
+ 
   
-  .lato-light-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
   
-  .lato-regular-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .lato-bold-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .lato-black-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
 
   .logo{
     width: 200px;
@@ -111,7 +85,8 @@ body{
     height: 100vh;
     position: relative; 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     
 
   }
@@ -119,50 +94,55 @@ body{
   .hero-text{
     text-transform: capitalize;
     color: white;
-    font-size: 65pt;
-    margin-top: 220px;
+    align-items: center;
+    font-size: 50pt;
+    margin-top: 100px;
     text-align: left;
-    margin-left: 880px;
+    /* margin-left: 880px; */
     border-radius: 80px 0 0px 80px;
     text-shadow: 1px 0.8px 5px rgba(7, 1, 1, 0.801);
-    width: 550px;
+    width: 700px;
     height: 200px;
   }
 
-  .hero-text:hover{
+
+    .hero-text .dot{
+      color: #e4cd00;
+      font-size: 80pt;
+    }
+
+  /* .hero-text:hover{
     font-size: 65pt;
     background-color: #080812c5;
     padding: 30px 10px;
     text-shadow: 1px 0.8px 5px rgba(116, 113, 113, 0.801);
     box-shadow: 5px 2px 8px #e2dedeaf;
     
-  }
+  } */
 
-  .hero-btn{
-    padding: 20px 50px;
-    margin-left: 400px;
-    
-    margin-top: 200px;
+  /* .hero-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 5px;
+    pad: 20px 30px;
     background-color: rgba(0, 0, 0, 0.411);
-  border: 2px solid white ;
   color: white;
 
   }
 
   .hero-btn:hover{
     background-color: rgba(206, 177, 13, 0.616);
-  }
+  } */
 
   .hero-btn2{
-    padding: 20px 50px;
-    margin-left: 400px;
-    
-    margin-top: 200px;
+   display: flex;
     border-radius: 5px;
+    padding: 20px 30px;
     background-color: rgba(233, 210, 4, 0.911);
     border-style: none;
-  color: white;
+    color: white;
+    /* margin: 200px 0 0 300px; */
 
    
   }
@@ -171,18 +151,6 @@ body{
     background-color: rgb(114, 10, 117);
   }
 
-.btn{
-  position: absolute;
-  top:50%;
-  
-
-}
-
-.btn2{
-  position: absolute;
-  top:50%;
-  left: 30%;
-}
 
 #about{
   width: 100vw;
@@ -191,11 +159,14 @@ body{
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* background-image: url(./assests/images/aboutbackground.jpg);
-  background-blend-mode: lighten; */
   
-
+  
 }
+
+
+
+
+
 
 .about-text {
   width: 500px;
@@ -244,7 +215,7 @@ body{
 
 #projects{
   width: 100vw;
-  height: 300px;
+  height: 400px;
   /* background-color: aquamarine; */
   display: flex;
   justify-content: space-evenly;
@@ -264,4 +235,124 @@ body{
   border-radius: 20px;
 
 }
+
+#service{
+  width: 100vw;
+  height: 300vh;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top-service{
+  background-image: url(./assests/images/aboutbackground.jpg);
+  width: 100vw ;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-service span{
+  background-blend-mode: soft-light;
+  font-size: 25pt;
+  font-weight: 900;
+  color: #545454;
+  text-transform: capitalize;
+}
+
+.icon{
+  color: brown;
+}
+
+.sev-mov{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
   
+.web-design{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  
+}
+
+.web-design:hover{
+  box-shadow: 0.8px 6px 9px black;
+  border-radius: 20px;
+}
+
+#details{
+  width: 100vw;
+  height: 600px;
+  background-color: #43034693;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.grid{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.item img{
+  width: 250px;
+  height: 180px;
+}
+
+.top-services{
+  /* background-image: url(./assests/images/aboutbackground.jpg); */
+  width: 100vw ;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-services span{
+  font-size: 40pt;
+  text-transform: uppercase;
+  color: white;
+}
+
+.serv-btn{
+  padding: 20px 30px;
+  border-style: none ;
+  background-color: rgba(255, 255, 0, 0.726);
+  color: #4d0353;
+}
+
+.serv-btn:hover{
+  background-color: #4d0353;
+  color: rgba(255, 255, 0, 0.726);
+}
+
+
+.item img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.item .aaron-img{
+  width: 280px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+#footer{
+  width: 100vw;
+  height: 400px;
+  background-color: #292825;
+}
