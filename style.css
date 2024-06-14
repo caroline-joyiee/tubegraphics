@@ -179,7 +179,7 @@ body{
 }
 
 .about-text p{
-  font-size: 10pt;
+  font-size: 14pt;
 }
 
 .about-text:hover{
@@ -233,6 +233,7 @@ body{
   height: 350px;
   box-shadow: 5px 3px 8px black;
   border-radius: 20px;
+  transition: 1s;
 
 }
 
@@ -247,6 +248,7 @@ body{
 
 .top-service{
   background-image: url(./assests/images/aboutbackground.jpg);
+  background-blend-mode: color-dodge;
   width: 100vw ;
   height: 80px;
   display: flex;
@@ -287,7 +289,12 @@ body{
 .web-design:hover{
   box-shadow: 0.8px 6px 9px black;
   border-radius: 20px;
+  background-color: #936E94;
+  color: white;
+  transition: 1s;
 }
+
+
 
 #details{
   width: 100vw;
@@ -299,6 +306,7 @@ body{
   color: white;
 }
 .grid{
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -335,9 +343,12 @@ body{
 
 .serv-btn:hover{
   background-color: #4d0353;
-  color: rgba(255, 255, 0, 0.726);
+  color: white;
 }
 
+.item_body:hover{
+  text-shadow: 0.8px 3px 8px grey;
+}
 
 .item img {
   width: 250px;
@@ -351,8 +362,118 @@ body{
   border-radius: 50%;
 }
 
+#main-contact{
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+
+}
+
+
+
+#main-contact p{
+  font-size: 20pt;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.contact{
+  width: 600px;
+  height: 80px;
+  /* background-color: #545454; */
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.contact .little-text{
+  font-size: 10pt;
+}
+
+.line{
+  border-left: 5px solid grey;
+  height: 800px;
+  width: 200px;
+
+}
+
 #footer{
   width: 100vw;
   height: 400px;
   background-color: #292825;
+  display: flex;
+ justify-content: space-around;
+  align-items: center;
+  color: #858484;
+}
+
+
+
+
+#black{
+  width: 100vw;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-size: 12pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  
+
+}
+
+.contain h4{
+  font-size: 16pt;
+  color: white;
+  font-weight: 200;
+}
+
+
+.contains{
+  text-align: center;
+}
+
+
+.contains video{
+  width: 100%;
+  height: 200px;
+  
+}
+
+.contains video:hover{
+  border-radius: 20px;
+  box-shadow: 0.8px 3px 10px white;
+  transition: 1s;
+}
+
+#vid-sec{
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(./assests/images/background.jpg) ;
+  background-blend-mode: color-dodge;
+}
+
+/* .text{
+  width: 40px;
+  height: 20px;
+} */
+
+.vid-text{
+  font-size: 20pt;
+  text-align: center;
+
+
+}
+#vid-sec video{
+  width: 700px;
+  height:  200px;
+
 }
