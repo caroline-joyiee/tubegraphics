@@ -191,6 +191,7 @@ body{
   height: 150px;
   background-image: url(./assests/images/background.jpg);
   background-blend-mode: luminosity;
+  background-attachment: fixed;
   object-fit: contain;
   background-color: white;
   display: flex;
@@ -216,7 +217,6 @@ body{
 #projects{
   width: 100vw;
   height: 400px;
-  /* background-color: aquamarine; */
   display: flex;
   justify-content: space-evenly;
 }
@@ -247,8 +247,9 @@ body{
 }
 
 .top-service{
-  background-image: url(./assests/images/aboutbackground.jpg);
+  background-image: url(./assests/images/background.jpg);
   background-blend-mode: color-dodge;
+  background-attachment: fixed;
   width: 100vw ;
   height: 80px;
   display: flex;
@@ -458,6 +459,7 @@ body{
   justify-content: space-around;
   align-items: center;
   background-image: url(./assests/images/background.jpg) ;
+  background-attachment: fixed;
   background-blend-mode: color-dodge;
 }
 
